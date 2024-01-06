@@ -1,16 +1,16 @@
 const menuIcon = document.getElementById("menu-icon");
 const navbar = document.querySelector(".navbar");
 
-// menuIcon.addEventListener('click', function(){
-//       // If the navbar is open, close it.
-//       if (navbar.style.display === "block") {
-//         navbar.style.display = "none";
-//         navbar.style.transition = '1s';
-//       } else {
-//         // Otherwise, open it.
-//         navbar.style.display = "block";
-//       }
-// })
+menuIcon.addEventListener('click', function(){
+      // If the navbar is open, close it.
+      if (navbar.style.display === "block") {
+        navbar.style.display = "none";
+        navbar.style.transition = '1s';
+      } else {
+        // Otherwise, open it.
+        navbar.style.display = "block";
+      }
+})
 
 
 // scroll section
@@ -23,7 +23,7 @@ window.addEventListener('scroll', function () {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
 
-        if (pageYOffset >= (sectionTop - sectionHeight / 2)) {
+        if (pageYOffset >= (sectionTop - sectionHeight / 1)) {
             current = section.getAttribute('id')
         }
     })

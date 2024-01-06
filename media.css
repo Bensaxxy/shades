@@ -57,7 +57,7 @@
         left: 0;
         display: block;
         flex-direction: column;
-        background-color: red;
+        background-color: blueviolet;
         height: 100vh;
         display: none;
     }
@@ -393,7 +393,7 @@
         left: 0;
         display: block;
         flex-direction: column;
-        background-color: red;
+        background-color: blueviolet;
         height: 100vh;
         display: none;
     }
